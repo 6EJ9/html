@@ -20,3 +20,9 @@ https://6ej9.github.io/html/dfxr%20with%20media/DFXR'S%20SERVER%20%F0%9F%96%A4%2
 
 ### AH Chat - EJ Server:
 https://6ej9.github.io/html/AH_Chat.html
+
+  <hr>
+</div>
+
+### Animation:
+https://6ej9.github.io/html/alawee/index.html
