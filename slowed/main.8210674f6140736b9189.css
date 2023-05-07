@@ -1,0 +1,139 @@
+.icon-button {
+  background: none;
+  border: none;
+  color: #fefefe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.icon-button > svg {
+  font-size: 3rem;
+}
+
+.icon-button:disabled {
+  color: #555 !important;
+  cursor: default;
+}
+
+.icon-button:hover {
+  color: #bbb;
+}
+
+.icon-button:active {
+  color: #999;
+}
+
+.icon-button:focus {
+  outline: none;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100%;
+}
+
+#root {
+  background: linear-gradient(#400549, #4e2e81);
+  min-height: 100%;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'PerfectDos';
+  src: url(4df1d5bd795358c80faab26511d48071.ttf);
+}
+
+#root {
+  font-family: 'PerfectDos', monospace;
+  padding: 1rem 1rem 2rem;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fefefe;
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: normal;
+  margin: 1rem 0 0;
+  font-style: italic;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  font-weight: normal;
+  margin: 1rem 0;
+}
+
+.credit {
+  margin-bottom: 1rem;
+}
+
+.file-input {
+  display: none;
+}
+
+.control {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.control__name {
+  margin-right: 1rem;
+}
+
+.playback-controls {
+  margin: 1rem 0 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress {
+  color: #fefefe;
+}
+
+.download {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  margin-top: 1rem;
+  font-family: 'PerfectDos';
+  background: none;
+  border: 2px solid #fefefe;
+  border-radius: 4px;
+  color: #fefefe;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.filename {
+  margin-top: 2rem;
+  height: 1rem;
+}
+
+.render-message {
+  margin-top: 1rem;
+}
+
+a {
+  color: yellow;
+}
+
