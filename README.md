@@ -25,4 +25,4 @@ https://6ej9.github.io/html/alawee/index.html
 </div>
 
 ### File Index:
-https://6ej9.github.io/html/index/index.html
+https://index.69ej69.repl.co
